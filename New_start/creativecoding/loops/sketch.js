@@ -8,10 +8,20 @@ function draw() { //runs in a loop
 fill (255,0,0); //fils colour
 strokeWeight (8); //assigns stroke weight
 translate (60,60); //creates a new origin point
-  quad (0,0,
-        300,0,
-        300,300,
-         0,300);
+
+
+for ( var y = 0; y < 600 ; y = y + 300) {
+for (var x  = 0; x < 600; x = x + 300) {
+  quad (x,y,
+        x + 300,y,
+        x + 300, y + 300,
+         x, y +300);
+
+
+
+}
+}
+
 
 
 }
