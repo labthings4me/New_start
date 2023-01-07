@@ -1,7 +1,7 @@
 let img;
 
 function preload (){
-  img = loadImage ('sneaker.gif');
+  img = loadImage ('pastelsneaker.gif');
 }
 
 
