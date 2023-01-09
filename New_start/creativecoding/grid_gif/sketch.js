@@ -7,7 +7,7 @@ function setup() { //runs once
 }
 
 function draw() { //runs in a loop
-fill (255,255,0); //fils colour
+fill (255,0,0); //fils colour
 strokeWeight (1); //assigns stroke weight
 var num = 4; ///  number of squares in my array
 var sideLen = windowWidth/num; // this is our side length
