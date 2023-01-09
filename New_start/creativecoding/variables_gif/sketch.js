@@ -13,7 +13,7 @@ function setup() { //runs once
 function draw() { //runs in a loop
 //fill ('lavender'); //fils colour
 //strokeWeight (1); //assigns stroke weight
-var num = 8; ///  number of squares in my array
+var num = 6; ///  number of squares in my array
 var sideLen = windowWidth/num; // this is our side length
 
 
