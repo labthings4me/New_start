@@ -1,5 +1,8 @@
 // create a program that can customise the number of sqaures in a grid
-
+let img; // img static gif for gixf
+funstion preload () {
+  img = loadImage (images/bermudiana.png)//this is to preload my inage or gif
+}
 function setup() { //runs once
  createCanvas (windowWidth,windowWidth); //creates a canvas 720px x 720 px
  background (255,255,0);
@@ -20,6 +23,8 @@ for (var x = 0; x < windowWidth ; x = x + sideLen){ //loop creates a row in the 
         x + sideLen,y,
         x + sideLen, y + sideLen,
          x,y + sideLen);
+
+         image (img, x,y, windowWidth/num, windowWidth/num);
 }
 }
 
