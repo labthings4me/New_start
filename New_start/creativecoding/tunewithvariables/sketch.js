@@ -17,9 +17,9 @@ for (var y = 0; y < windowWidth ; y = y + sideLen){ //loop creates a row in the 
 for (var x = 0; x < windowWidth ; x = x + sideLen){ //loop creates a row in the x direction
 
   quad (x,y,
-        x+sideLen,y,
-        x+sideLen,y+sideLen,
-         x,y+sideLen);
+        x + sideLen,y,
+        x + sideLen, y + sideLen,
+         x,y + sideLen);
 }
 }
 
