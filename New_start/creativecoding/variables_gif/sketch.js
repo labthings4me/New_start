@@ -1,6 +1,6 @@
 // create a program that can customise the number of sqaures in a grid
 let gif;
-funstion preload () {
+function preload () {
   gif = loadImage( 'assets/new_selfieportrait.gif');
 
 }
@@ -13,7 +13,7 @@ function setup() { //runs once
 function draw() { //runs in a loop
 //fill ('lavender'); //fils colour
 //strokeWeight (1); //assigns stroke weight
-var num = 30; ///  number of squares in my array
+var num = 8; ///  number of squares in my array
 var sideLen = windowWidth/num; // this is our side length
 
 
