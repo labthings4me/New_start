@@ -18,7 +18,7 @@ function preload (){
 
 
 function draw() {
-  translate (0,40);
+  //translate (0,40);
 
 
  var num = 6 ;
