@@ -12,12 +12,13 @@ function preload (){
 }
   function setup() {
     createCanvas(windowWidth, windowWidth);
-
+frameRate (.5);
   }
 
 function draw() {
   fill ('yellow');
   strokeWeight (1);
+  background ('white');
 
 
  var num = 6 ;
