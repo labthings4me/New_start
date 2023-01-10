@@ -15,7 +15,6 @@ function preload (){
 
   }
 
-
 function draw() {
   fill ('yellow');
   strokeWeight (1);
@@ -36,7 +35,7 @@ function draw() {
 
     pics = [boat,map, lizard,lily,fish,palm];
     image (pics [int (random (0,6
-                             )], x,y);
+    ))], x,y);
 
 
     }
