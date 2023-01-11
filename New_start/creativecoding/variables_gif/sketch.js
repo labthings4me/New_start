@@ -6,12 +6,12 @@ function preload () {
 }
 function setup() { //runs once
  createCanvas (windowWidth,windowWidth); //creates a canvas 720px x 720 px
- background (255,255,0);
+ background ('white');
 
 }
 
 function draw() { //runs in a loop
-//fill ('lavender'); //fils colour
+//fill ('white'); //fils colour
 //strokeWeight (1); //assigns stroke weight
 var num = 4; ///  number of squares in my array
 var sideLen = windowWidth/num; // this is our side length

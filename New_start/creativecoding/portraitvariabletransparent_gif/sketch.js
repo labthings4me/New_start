@@ -1,7 +1,7 @@
 // create a program that can customise the number of sqaures in a grid
 let gif;
 function preload () {
-  gif = loadImage ('portrait.gif');
+  gif = loadImage( 'assets/portrait.gif');
 
 }
 function setup() { //runs once
